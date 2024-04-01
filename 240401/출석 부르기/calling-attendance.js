@@ -9,4 +9,6 @@ if( input === 1){
     console.log('Tom')
 } else if(input === 3){
     console.log('Paul')
+} else {
+    console.log('Vacancy')
 }
