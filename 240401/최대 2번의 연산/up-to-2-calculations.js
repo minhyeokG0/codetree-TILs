@@ -8,8 +8,8 @@ if(input % 2 === 0){
 }
 
 if( input % 2 === 1){
-    input /= 2;
     input += 1;
+    input /= 2;
 }
 
 console.log(parseInt(input))
