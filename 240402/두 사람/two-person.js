@@ -9,4 +9,6 @@ const [ageB, sexB] = [Number(B[0]), B[1]]
 
 if((ageA >= 19 && sexA === 'M') || (ageB >= 19 && sexB === 'M')) {
  console.log(1)
+} else {
+    console.log(0)
 }
