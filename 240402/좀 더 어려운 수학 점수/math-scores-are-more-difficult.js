@@ -9,11 +9,9 @@ const [mathB, engB] = [Number(arrB[0]), Number(arrB[1])]
 
 if(mathA >mathB) {
     console.log('A')
-} else {
+} else if(mathA < mathB) {
     console.log('B')
-}
-
-if( mathA === mathB && engA > engB) {
+} else if ( mathA === mathB && engA > engB) {
     console.log('A')
 } else if ( mathA === mathB && engA < engB) {
  console.log('B')
