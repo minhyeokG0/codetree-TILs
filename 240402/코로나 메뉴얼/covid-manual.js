@@ -27,6 +27,8 @@ if(firstIsSick === 'Y' && firstTemp >= 37){
         } else {
             console.log('N')
         }
+    } else {
+         console.log('N')
     }
 
 }
