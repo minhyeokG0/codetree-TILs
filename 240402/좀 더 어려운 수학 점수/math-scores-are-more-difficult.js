@@ -13,6 +13,6 @@ if(mathA >mathB) {
     console.log('B')
 } else if ( mathA === mathB && engA > engB) {
     console.log('A')
-} else if ( mathA === mathB && engA < engB) {
+} else  {
  console.log('B')
 }
