@@ -9,11 +9,8 @@ let toiletCnt = 0
 
 
 for(let i = 1; i <= n; i++){
-    if( i % 2 === 0 && i % 3 === 0 && i % 12 === 0){
+    if(i % 12 === 0){
         toiletCnt += 1
-
-    } else if (i % 2 === 0 && i % 3 === 0 ){
-        hallwayCnt += 1
     } else if (i % 3 === 0){
         hallwayCnt += 1
     } else if (i % 2 === 0){
