@@ -3,7 +3,7 @@ const fs = require('fs')
 const input = fs.readFileSync(0).toString().split(' ')
 
 
-const [a, b] = [Number(input[0]), Number(input[1])]
+let [a, b] = [Number(input[0]), Number(input[1])]
 
 let result = ''
 while(a <= b){
