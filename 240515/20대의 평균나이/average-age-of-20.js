@@ -10,7 +10,7 @@ let sum = 0
 while(true){
     
     n = Number(input[index])
-    if(n >= 30){
+    if(n >= 30 || n < 20){
         console.log((sum/count).toFixed(2))
         break
 
