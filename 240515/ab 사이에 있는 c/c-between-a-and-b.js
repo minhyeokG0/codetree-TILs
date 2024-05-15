@@ -18,7 +18,7 @@ for(let i = a; i <= b; i++){
         break
     }
 
-    if( i === c && pass === false){
+    if( i === b && pass === false){
         console.log('NO')
         break
     }
