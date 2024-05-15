@@ -17,6 +17,6 @@ while(true){
     }
     sum += n
     count +=1
-    index+=1    
+    index  +=1    
 
 }
