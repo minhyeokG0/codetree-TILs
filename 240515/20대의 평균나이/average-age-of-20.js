@@ -10,13 +10,13 @@ let sum = 0
 while(true){
     
     n = Number(input[index])
-     if(n >= 30){
+    if(n >= 30){
         console.log((sum/count).toFixed(2))
         break
 
     }
-    sum += n
-    count +=1
-    index  +=1    
+    sum += n;
+    count +=1;
+    index  +=1;    
 
 }
